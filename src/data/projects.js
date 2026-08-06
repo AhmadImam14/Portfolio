@@ -38,5 +38,13 @@ export const projects = [
     github: 'https://github.com',
     demo: 'https://example.com',
     imageLabel: 'Repo'
-  }
+  },
+    {
+    title: 'TikiTaka Hub',
+    description: 'A simple Sports news and club comparising site.',
+    technologies: ['HTML', 'JS', 'API', 'Bootstrap'],
+    github: 'https://github.com',
+    demo: 'https://example.com',
+    imageLabel: 'Scholarship'
+  },
 ]
