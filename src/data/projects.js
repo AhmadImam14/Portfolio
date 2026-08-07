@@ -39,12 +39,12 @@ export const projects = [
     demo: 'https://example.com',
     imageLabel: 'Repo'
   },
-    {
+  {
     title: 'TikiTaka Hub',
     description: 'A simple Sports news and club comparising site.',
     technologies: ['HTML', 'JS', 'API', 'Bootstrap'],
-    github: 'https://github.com',
+    github: 'https://github.com/AhmadImam14/Tiki-Taka-Hub',
     demo: 'https://example.com',
-    imageLabel: 'Scholarship'
+    imageLabel: 'TikiTaka'
   },
 ]
