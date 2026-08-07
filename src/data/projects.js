@@ -45,6 +45,6 @@ export const projects = [
     technologies: ['HTML', 'JS', 'API', 'Bootstrap'],
     github: 'https://github.com',
     demo: 'https://example.com',
-    imageLabel: 'Scholarship'
+    imageLabel: 'TikiTaka'
   },
 ]
