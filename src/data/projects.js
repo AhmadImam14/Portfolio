@@ -1,4 +1,12 @@
 export const projects = [
+    {
+    title: 'SWE FINAL YEAR PICNIC',
+    description: 'A full-stack event registration and payment platform built for the BUK Software Engineering Final Year Picnic. It enables students to verify their registration details, register for the event, and securely make payments online, with automated payment verification and an admin dashboard for managing registrations and payment status',
+    technologies: ['HTML', 'JS', 'API', 'Node.js', 'MongoDB', 'CSS'],
+    github: 'https://github.com/AhmadImam14/SWEPICNIC',
+    demo: 'https://swepicnic.onrender.com/',
+    imageLabel: 'SWE Picnic'
+  },
   {
     title: 'VitalsDeck',
     description: 'A modern dashboard for tracking wellness metrics and daily progress.',
@@ -47,4 +55,5 @@ export const projects = [
     demo: 'https://example.com',
     imageLabel: 'TikiTaka'
   },
+
 ]
