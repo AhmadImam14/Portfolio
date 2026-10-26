@@ -1,18 +1,22 @@
 export const skillGroups = [
   {
     title: 'Frontend',
-    items: ['HTML', 'CSS', 'JavaScript', 'React']
+    items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React']
   },
   {
     title: 'Backend',
-    items: ['Node.js', 'Express']
+    items: ['Node.js', 'Express', 'Socket.io']
   },
   {
     title: 'Database',
-    items: ['MongoDB', 'Firebase']
+    items: ['MongoDB', 'PostgreSQL', 'Firebase']
+  },
+  {
+    title: 'Testing',
+    items: ['Playwright', 'Vitest', 'Jest']
   },
   {
     title: 'Others',
-    items: ['Git', 'GitHub', 'Vercel', 'REST APIs']
+    items: ['Git', 'GitHub', 'Docker', 'Vercel', 'REST APIs']
   }
 ]

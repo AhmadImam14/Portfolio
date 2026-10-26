@@ -12,8 +12,9 @@ function ProjectCard({ project }) {
       </div>
 
       <div className="project-actions">
-        <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>
-        <a href={project.demo} target="_blank" rel="noreferrer">Live Demo</a>
+        {project.github && <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>}
+        {project.demo && <a href={project.demo} target="_blank" rel="noreferrer">Live Demo</a>}
+        {!project.github && !project.demo && <span>Private repo · demo on request</span>}
       </div>
     </article>
   )
